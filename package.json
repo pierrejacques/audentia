@@ -1,0 +1,33 @@
+{
+  "name": "audentia",
+  "version": "1.0.0",
+  "description": "a model for canvas",
+  "main": "dist/vivid.umd.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierrejacques/spritus.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "Bee Bee Gee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierrejacques/spritus/issues"
+  },
+  "homepage": "https://github.com/pierrejacques/spritus#readme",
+  "dependencies": {
+    "rollup": "^0.63.4",
+    "rollup-plugin-typescript2": "^0.16.1",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "rollup-watch": "^4.3.1"
+  }
+}
